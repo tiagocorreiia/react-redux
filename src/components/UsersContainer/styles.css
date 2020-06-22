@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+  padding: 15px;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  padding: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: tomato;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+ul li {
+  padding: 0.8em;
+  border: 1px solid #e9e9e9;
+  margin-top: 15px;
+}
+
+ul li p {
+  padding-bottom: 4px;
+}
+
+button {
+  width: 100%;
+  display: block;
+  margin-top: 15px;
+  border: none;
+  padding: 0.8em;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: tomato;
+  border: 2px solid tomato;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  border: 2px solid tomato;
+  color: tomato;
+  background-color: transparent;
+}
